@@ -1,0 +1,269 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+/*@font-face {
+    font-family: Gentium;
+    src: url('http://example.com/fonts/Gentium.woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  width: 100%;
+  height: 170px;
+}
+#presentacion{
+  height: 100%;
+  display: inline-flex;
+  background-image: url("../img/fondo_encabezado.jpg");
+  border-bottom: 3px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
+}
+#escudoDoble{
+  width: 130;
+  display: block;
+}
+h3, h4, h9 {
+  text-align: center;
+}
+a{
+  width: 400px;
+  padding-top: 5px;
+}
+.escudo{
+  width: 200px;
+  height: 160px;
+  float: left;
+  display: inline-flex;
+  /*background-image: url("../img/escudosmsem.png");*/
+  /*background-color: black;
+  background-repeat: no-repeat;
+  background-size:contain;*/
+}
+.escudo .imagen1{
+  height: 150px;
+  padding-top: 15px;
+  margin: 0 75px 0;
+  padding-bottom: 1px;
+  float: left;
+}
+.escudo .imagen2{
+  height: 80px;
+  padding-top: 5px;
+  /*adding-left: 30px;*/
+  margin: 0 75px 0;
+  padding-bottom: 5px;
+  float:right;
+}
+#Img70años{
+  margin: 20px 30px 0;
+  padding-top: 0px;
+  border-bottom: .2em solid rgb(107, 105, 105);
+}
+.texto{
+  width: 900px;
+  height: 180px;
+  padding-left: 50px;
+}
+.texto .texsmsem{
+  width: 800px;
+  height: 15px;
+  padding-left: 30px;
+  padding-top: 50px;
+  color:black;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+}
+.texto .texfonretif{
+  width: 800px;
+  height: 25px;
+  padding-left: 30px;
+  color: #393939;
+  text-align: center;
+  font-size: 17px;
+}
+.section{
+  min-height: 700px;
+  background-color: #FFF;
+}
+h1{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+/*ESTILOS DE LA SECCION SECTION ARTICLE -  CONTENEDOR*/
+label{
+  float: left;
+  color: black;
+  padding-left: 20px;
+}
+.contenedor {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.frame{
+  height: 300px;
+  width: 400px;
+  background:#F6F4F4;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 1px rgba(255,255,255,.3);
+  border-radius: 10px;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: all .5s ease;
+}
+.inicses{
+  width: 330px;
+  height: 375px;
+	font-size: 16px;
+	font-weight: 300;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 28px;
+  transition: opacity .10s ease, transform .5s ease;
+  display: inline-block;
+}
+.inicses input{
+  color: black;
+  font-size: 14xpx;
+  color: black;
+  padding: .8em;
+}
+.inicses .inptIniSes{
+  width: 200px;
+  height: 25px;
+  border: none;
+  padding-left: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: rgba(128,128,128,.3);
+
+}
+.boton{
+padding-left: 55px;
+padding-top:20px;
+height: 50px;
+padding-right:100px;
+}
+.BtnIniSes{
+  width: 130px;
+  height: 40px;
+  float: left;
+  padding-top: 1px;
+  padding-left:12px;
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  font-weight:bold;
+  color: rgba(255,255,255, 1);
+	border-radius: 15px;
+  background-color: rgba(16,89,255, 1);
+  transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s;
+  margin: 5px 35px 0;
+}
+.IniSesAdi{
+  height: 20px;
+  width: 50%;
+  text-align: center;
+  font-size:12px;
+
+  margin: 30px 220px 0;
+}
+#usuario{
+  margin: 3px 55px 0;
+}
+#contraseña{
+  margin: 3px 55px 0; 
+}
+
+
+/*ESTILOS DE LA SECCION FOOTER - PIE DE PAGINA*/
+footer {
+  width: auto;
+	height:60px;
+  padding-top:70px;
+}
+.piepag {
+	width: auto;
+	padding-left:22px;
+	padding-right:22px;
+	height: 60px;
+	margin: 0 auto;
+	font-size:8px;
+	font-weight:bold;
+  background-color: #F2F2F4;
+	color:#535256;
+	text-transform: uppercase;
+	padding-top:3px;
+  border-top: solid 1px rgba(20,20,20,.3);
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
+}
+.piepag .textlema{
+  width: 900px;
+  height: 20px;
+  padding-left: 200px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color:#008f39;
+}
+.piepag1 {
+    width: 1330px;
+    height:35px;
+    margin:0px;
+    padding:0px;
+    float: left;
+}
+.piepag1 .columnaredes {
+    width: 440px;
+    height:35px;
+    margin:0px;
+    padding:0px;
+    float: left;
+}
+.piepag1 .columnacontacto {
+    width: 440px;
+    height:35px;
+    margin:0px;
+    padding:0px;
+    float: left;
+}
+.piepag1 .columnaUbicacion {
+    width: 440px;
+    height:35px;
+    margin:0px;
+    padding:0px;
+    float: left;
+}
+.piepag1 .columnaTitulo {
+    width: 420px;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-right:8px;
+    height:14px;
+    line-height: 3px;
+    padding:0px;
+    border-bottom:solid 1px #999;
+    text-align: center;
+}
+.piepag1 .logo{
+  padding-top: 3px;
+  padding-left: 50px;
+}
